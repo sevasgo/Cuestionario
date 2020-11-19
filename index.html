@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Descripción" content="Cuestionario con uso de formularios">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Cuestionario</title>
+</head>
+
+<body>
+    <header>
+        <h1>Cuestionario</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Volver al inicio</a></li>
+        </ul>
+    </nav>
+    <section id="main">
+        <h2>Completa el formulario</h2>
+        <hr />
+        <form action="formulario.html" method="GET">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" required>
+            <br><br>
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" name="apellidos" required>
+            <br><br>
+            <label for="educación">Nivel educativo:</label>
+            <select id="educación" name="educación" required>
+                <option value="bachillerato">Bachillerato</option>
+                <option value="técnico">Técnico</option>
+                <option value="universitario">Universitario</option>
+                <option value="posgrado">Posgrado</option>
+                <option value="maestria">Maestria</option>
+                <option value="doctorado">Doctorado</option>
+                <option value="posdoctorado">Posdoctorado</option>
+            </select>
+            <br><br>
+            <label for="telefono">Telefono:</label>
+            <input type="text" name="telefono" required>
+            <br><br>
+            <label for="celular">Celular:</label>
+            <input type="text" name="celular">
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="text" name="email" required>
+            <br><br>
+            <span>Vivienda:</span>
+            <input type="radio" id="casa" name="answer" value="casa" required>
+            <label for="casa">Casa</label>
+            <input type="radio" id="apartamento" name="answer" value="apartamento" required>
+            <label for="apartamento">Apartamento</label>
+            <br><br>
+            <label for="direccion">Direccion:</label>
+            <input type="text" name="direccion">
+            <br><br>
+            <article>
+                <p>A continuación se realizarán una serie de preguntas abiertas.</p>
+            </article>
+            <label for="pregunta-1">HTML es:</label>
+            <textarea id="pregunta-1" name="pregunta-1" rows="8" cols="40" required>
+            </textarea>
+            <br><br>
+            <label for="pregunta-2">CSS es:</label>
+            <textarea id="pregunta-2" name="pregunta-2" rows="8" cols="40" required>
+            </textarea>
+            <br><br>
+            <label for="pregunta-3">JavaScript es:</label>
+            <textarea id="pregunta-3" name="pregunta-3" rows="8" cols="40" required>
+            </textarea>
+            <br><br>
+            <article>
+                <p>Los anteriores elementos son importantes en el desarrollo web?</p>
+            </article>
+            <label for="pregunta-4">Justifique su respuesta...</label>
+            <textarea id="pregunta-4" name="pregunta-4" rows="8" cols="40" required>
+            </textarea>
+            <br><br>
+            <input type="submit" value="Enviar">
+
+        </form>
+    </section>
+
+</body>
+
+</html>

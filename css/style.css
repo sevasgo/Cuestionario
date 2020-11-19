@@ -1,0 +1,34 @@
+body {
+    background-image: url(./images/Imagen_Fondo.jpg);
+    font-family: "Open Sans", Arial;
+}
+
+h1 {
+    text-align: center;
+    font-size: 90px;
+    font-style: italic;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+form {
+    line-height: 27px;
+}
+
+#main {
+
+    text-align: center;
+    height: 80vh;
+    border-radius: 15px;
+    margin: 2% 10%;
+    font-weight: bold;
+}
+
+#img {
+    display: block;
+    width: 35%;
+    margin: 0 auto;
+}
