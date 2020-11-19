@@ -5,30 +5,48 @@ body {
 
 h1 {
     text-align: center;
-    font-size: 90px;
+    font-size: 150px;
     font-style: italic;
+    margin-top: -5px;
+    margin-bottom: -50px;
+    font-weight: lighter;
+
 }
 
 h2 {
     text-align: center;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 form {
-    line-height: 27px;
+    line-height: 15px;
 }
 
 #main {
-
     text-align: center;
-    height: 80vh;
-    border-radius: 15px;
-    margin: 2% 10%;
     font-weight: bold;
 }
 
-#img {
-    display: block;
-    width: 35%;
-    margin: 0 auto;
+p {
+    font-style: italic;
+}
+
+hr {
+    border: 1px solid transparent;
+}
+
+label {
+    margin: 10px;
+}
+
+input,
+textarea {
+    margin: 5px;
+}
+
+table,
+tr,
+td {
+    align-items: center;
+    margin-left: 20%;
 }
